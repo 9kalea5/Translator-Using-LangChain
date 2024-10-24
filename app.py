@@ -23,8 +23,8 @@ prompt=ChatPromptTemplate.from_messages(
 
 ## streamlit framework
 
-st.title('Langchain Demo With OPENAI API')
-input_text=st.text_input("Search the topic u want")
+st.title('Langchain Demo With GROQ API')
+input_text=st.text_input("Input the text you want to to translate")
 
 # openAI LLm 
 llm=ChatGroq(groq_api_key=groq_api_key,
